@@ -1,0 +1,38 @@
+#set the font-size and size of things
+
+# text and font
+axes.labelsize: 16
+font.size: 16
+
+xtick.labelsize: 16
+ytick.labelsize: 16
+axes.linewidth: 1.4
+
+font.family: Adelle Sans
+
+
+# axis and ticks
+axes.spines.top: False
+axes.spines.right:False
+axes.prop_cycle: cycler('color', ['6B88CE', '67C84F', '9552CE', 'B3B448', 'C462AB', '5AAC7F', 'D64F34'])
+#axes.prop_cycle: cycler('color', ['6B88CE’, '67C84F’, '9552CE’, ‘B3B448', ‘C462AB’,‘5AAC7F’, ‘D64F34’, ‘B67E3F’, ‘C9566D’])
+xtick.major.size: 5
+xtick.major.width: 1.4
+xtick.minor.size: 1
+ytick.major.size: 5
+ytick.major.width: 1.4
+ytick.minor.size: 1
+xtick.direction:in
+ytick.direction:in
+
+# legend
+legend.frameon: False
+
+# patches
+patch.force_edgecolor : True
+patch.edgecolor: white
+patch.linewidth: 1.
+
+# set dpi so figures are all the same size
+savefig.dpi:72
+figure.dpi:72
